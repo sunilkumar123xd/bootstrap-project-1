@@ -1,0 +1,168 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+/* <!-- session 1 --> */
+.navbar-nav li a {
+	color: white;
+	font-size: 12px;
+	margin: 15px;
+}
+
+.abot {
+	background-image: url(./img/about-header.jpg);
+	/* width: 100vw; */
+	/* height: 100px; */
+}
+
+.abots {
+	background-color: rgba(0, 0, 0, 0.8);
+	/* height: 100%; */
+	/* width: 100%; */
+}
+
+.about {
+	padding: 110px 0px;
+}
+.about h1 {
+	font-weight: 100;
+	font-size: 30px;
+}
+.about p {
+	padding: 10px 0px;
+}
+
+/* <!-- session 2 --> */
+
+.ga {
+	margin-top: 100px;
+}
+
+.get p {
+	color: #848484;
+	max-width: 600px;
+	margin: auto;
+}
+
+.contact p {
+	color: #848484;
+	max-width: 610px;
+}
+
+.contact h6 {
+	font-size: 15px;
+	font-weight: 450;
+	margin-top: 15px;
+}
+
+.contact input {
+	padding: 12px;
+	width: 100%;
+	border-radius: 0px;
+	max-width: 100%;
+}
+
+.contact input:focus {
+	/* border: none; */
+	outline: none;
+	border: 2px solid #28abe3;
+}
+
+.contact textarea {
+	border-radius: 0px;
+	height: 120px;
+}
+
+.contact textarea:focus {
+	outline: none;
+	border: 2px solid #28abe3;
+}
+
+.contact button {
+	padding: 12px;
+	width: 100%;
+	color: white;
+	background-color: #28abe3;
+
+	margin-top: 10px;
+	border: none;
+	/* max-width: 100%; */
+}
+
+.ican {
+	margin-top: 30px;
+}
+
+.contact i {
+	color: black;
+}
+
+.ican i {
+	font-size: 15px;
+	background-color: white;
+	border: 1px solid #848484;
+	padding: 12px;
+	margin: 10px;
+	border-radius: 100px;
+	color: #848484;
+}
+
+.ican i:hover {
+	background-color: #28abe3;
+	color: white;
+}
+
+/* <!-- footer// --> */
+
+.foot {
+	background-color: rgb(34, 34, 34);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.foote h5 {
+	color: white;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.foote p {
+	color: #777;
+	margin-top: 20px;
+}
+
+.foote h6 {
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.foote h6 a {
+	text-decoration: none;
+	color: #777;
+}
+
+.foote h6 a:hover {
+	color: #28abe3;
+}
+
+.color {
+	background-color: rgb(27, 27, 27);
+	width: 100vw;
+	height: 10vh;
+}
+
+.last h6 {
+	color: #777;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.last span {
+	color: #28abe3;
+}

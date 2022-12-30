@@ -1,0 +1,278 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+}
+/* <!-- session 1 --> */
+
+.navbar-nav li a {
+	color: white;
+	font-size: 12px;
+	margin: 15px;
+}
+
+.abot {
+	background-image: url(./img/about-header.jpg);
+	/* width: 100vw; */
+	height: 40vh;
+}
+
+.abots {
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 100%;
+	width: 100%;
+}
+
+.about {
+	padding: 90px 0px;
+}
+.about h1 {
+	font-weight: 100;
+	font-size: 30px;
+}
+.about p {
+	padding: 10px 0px;
+}
+
+/* <!-- session 2 --> */
+.server{
+	padding: 100px 0 130px ;
+}
+
+
+
+.our {
+	margin-top: 100px;
+}
+
+.ours h1 {
+	font-size: 30px;
+	font-weight: 100px;
+}
+
+.ours p {
+	color: #777;
+	max-width: 600px;
+	margin: 10px auto;
+}
+
+.servic {
+	/* border: 1px solid red; */
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.servic i {
+	font-size: 45px;
+	color: rgba(40, 171, 227, 0.7);
+}
+
+.servic h4 {
+	margin-top: 25px;
+	font-weight: 100;
+	font-size: 20px;
+}
+.servic p {
+	font-size: 13px;
+	color: #777;
+	max-width: 340px;
+	margin: auto;
+}
+
+.services .col-lg-4:nth-child(odd) .servic{
+	background: rgb(40,171,227) ;
+	color: white;
+}
+.services .col-lg-4:nth-child(odd) .servic p{
+	background: rgb(40,171,227) ;
+	color: white;
+}
+.services .col-lg-4:nth-child(odd) .servic i{
+	background: rgb(40,171,227) ;
+	color: white;
+}
+
+/* session 3 */
+.line {
+	position: relative;
+	padding: 10px 0px;
+}
+
+.sk {
+	margin-top: 100px;
+}
+
+span {
+	/* padding: 20px 0px; */
+	margin-top: 10px;
+}
+
+.skils {
+	margin-top: 20px;
+}
+.skil h2 {
+	font-weight: 200;
+}
+.skil p {
+	max-width: 590px;
+	color: #777;
+	margin: auto;
+	max-width: 500px;
+}
+
+.skils button {
+	padding: 13px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 14px;
+	background-color: #28abe3;
+	border: none;
+	color: white;
+	border-radius: 40px;
+	margin-top: 20px;
+}
+
+.skils p {
+	color: #777;
+	margin-top: 10px;
+}
+
+.line::after {
+	background-color: #28abe3;
+	padding: 5px;
+	width: 80%;
+	position: absolute;
+	content: '';
+}
+
+.skils ul li {
+	list-style-type: none;
+}
+
+.line::before {
+	background-color: rgb(233, 236, 239);
+	padding: 5px;
+	width: 100%;
+	position: absolute;
+	content: '';
+}
+
+/* session 4 */
+
+.crow img {
+	/* height: 120px; */
+	width: 200px;
+}
+
+/* .carousel $('.variable-width').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+}); */
+
+/* session 5 */
+
+.awa p {
+	color: #777;
+	max-width: 590px;
+	margin: 10px auto;
+	font-size: 14px;
+}
+
+.happy i {
+	font-size: 30px;
+	color: #28abe3;
+}
+
+.happy p {
+	color: #777;
+	font-weight: 500;
+}
+
+/* <!-- session 6 --> */
+
+
+.mart {
+	background-color: #28abe3;
+	padding-top: 100px;
+	/* position: relative; */
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.martin img {
+	border-radius: 100px;
+	height: 100px;
+	margin-top: 30px;
+	width: 100px;
+}
+
+
+
+.martin h3 {
+	margin-top: 20px;
+}
+
+.martin i {
+	font-size: 50px;
+	color: #28abe3;
+}
+.martin p {
+	max-width: 1300px;
+}
+
+/* <!-- footer// --> */
+
+.foot {
+	background-color: rgb(34, 34, 34);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.foote h5 {
+	color: white;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.foote p {
+	color: #777;
+	margin-top: 20px;
+}
+
+.foote h6 {
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.foote h6 a {
+	text-decoration: none;
+	color: #777;
+}
+
+.foote h6 a:hover {
+	color: #28abe3;
+}
+
+.color {
+	background-color: rgb(27, 27, 27);
+	width: 100vw;
+	height: 10vh;
+}
+
+.last h6 {
+	color: #777;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.last span {
+	color: #28abe3;
+}

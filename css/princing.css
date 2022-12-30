@@ -1,0 +1,173 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* <!-- session 1 --> */
+
+body {
+	/* overflow-y: hidden; */
+}
+
+.navbar-nav li a {
+	color: white;
+	font-size: 12px;
+	margin: 15px;
+}
+
+.abot {
+	background-image: url(./img/about-header.jpg);
+	/* width: 100vw; */
+	/* height: 100px; */
+}
+
+.abots {
+	background-color: rgba(0, 0, 0, 0.8);
+	/* height: 100%; */
+	/* width: 100%; */
+}
+
+.about {
+	padding: 110px 0px;
+}
+.about h1 {
+	font-weight: 100;
+	font-size: 30px;
+}
+.about p {
+	padding: 10px 0px;
+}
+
+/* <!-- session 2 --> */
+
+.bin {
+	background-color: rgb(247, 247, 247);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.agn img {
+	max-width: 100%;
+	height: auto;
+}
+
+.agna p {
+	color: #777;
+}
+
+.agna button {
+	height: 50px;
+	width: 160px;
+	background-color: #28abe3;
+	border: none;
+	color: white;
+	border-radius: 40px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+/* session 3 */
+
+.plan {
+	background-image: url(./img/pricing-bg.jpg);
+
+	/* padding-top: 100px; */
+	/* padding-bottom: 100px; */
+}
+
+.plans {
+	/* height: 100%; */
+	/* width: 100%; */
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.pla {
+	padding-top: 70px;
+	color: white;
+}
+
+.great {
+	height: auto;
+	background-color: white;
+	padding: 50px;
+	/* padding: 40px 70px; */
+	padding-top: 100px;
+
+	width: 100%;
+}
+
+.great h5 {
+	font-size: 15px;
+	color: #777;
+	margin-top: 20px;
+}
+
+.great h1 {
+	color: #28abe3;
+}
+
+.great p {
+	color: #777;
+	max-width: 350px;
+	font-size: 13px;
+}
+
+.great button {
+	height: 50px;
+	width: 160px;
+	border: none;
+	background-color: #28abe3;
+	color: white;
+	border-radius: 40px;
+	margin-top: 10px;
+}
+
+/* <!-- footer// --> */
+
+.foot {
+	background-color: rgb(34, 34, 34);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.foote h5 {
+	color: white;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.foote p {
+	color: #777;
+	margin-top: 20px;
+}
+
+.foote h6 {
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.foote h6 a {
+	text-decoration: none;
+	color: #777;
+}
+
+.foote h6 a:hover {
+	color: #28abe3;
+}
+
+.color {
+	background-color: rgb(27, 27, 27);
+	width: 100vw;
+	height: 10vh;
+}
+
+.last h6 {
+	color: #777;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.last span {
+	color: #28abe3;
+}

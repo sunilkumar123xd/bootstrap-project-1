@@ -1,0 +1,303 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.exp {
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #28abe3;
+	border: none;
+	border-radius: 40px;
+	color: white;
+}
+
+.navbar-nav li a:hover {
+	color: #28abe3;
+}
+
+.icans {
+	padding: 50px;
+	background-color: #28abe3;
+	border-radius: 50px;
+	font-size: 30px;
+}
+
+.label h1 {
+	font-size: 70px;
+	font-weight: 100;
+}
+
+/* <!-- session1  --> */
+
+.sit p {
+	max-width: 600px;
+	margin: auto;
+	font-size: 14px;
+	color: #848484;
+}
+
+.img img {
+	margin-top: 30px;
+}
+
+
+.time {
+	/* height: 300px; */
+	/* width: 350px; */
+	box-shadow: 0px 3px 3px gray;
+	background-color: white;
+	padding: 50px 10px;
+
+
+}
+
+.time h2 {
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+.time i {
+	font-size: 30px;
+	background-color: #28abe3;
+	padding: 10px;
+	border-radius: 100px;
+	color: white;
+}
+
+/* <!-- session 2 --> */
+
+.bin {
+	background-color: rgb(247, 247, 247);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.bing p {
+	max-width: 600px;
+	margin: auto;
+	font-size: 14px;
+	color: #848484;
+}
+
+.agn img {
+	max-width: 100%;
+	height: auto;
+}
+
+.agna p {
+	color: #777;
+}
+
+.agna button {
+	padding: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #28abe3;
+	border: none;
+	color: white;
+	border-radius: 40px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.carousel-item .carousel-caption {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	flex-direction: column;
+
+}
+
+.carousel-item img {
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+
+/* <!-- session 3 --> */
+
+.crea {
+	background-image: url(./img/call-to-action-bg-2.jpg);
+	width: 100vw;
+	height: 70vh;
+}
+
+.created {
+	margin-top: 90px;
+	color: white;
+	padding: 20px 0px;
+}
+
+.created p {
+	max-width: 600px;
+	margin: auto;
+}
+
+.created button {
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #28abe3;
+	border: none;
+	color: white;
+	border-radius: 40px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+/* <!-- session 4 --> */
+
+
+.awa p {
+	color: #777;
+}
+
+.happy i {
+	font-size: 30px;
+	color: #28abe3;
+}
+
+.happy p {
+	color: #777;
+	font-weight: 500;
+}
+
+/* <!-- session 5 --> */
+.inner {
+	background-color: #28abe3;
+	padding-top: 100px;
+	padding-bottom: 0px;
+	position: relative;
+}
+
+.mart {
+	background-color: #28abe3;
+	width: 160vw;
+	height: 40vh;
+}
+
+.carousel-item .martin img {
+	border-radius: 100px;
+	height: 100px;
+	width: 100px;
+	margin-top: 30px;
+}
+
+.martin h3 {
+	margin-top: 20px;
+}
+
+.martin i {
+	font-size: 50px;
+	color: #28abe3;
+}
+
+/* <!-- session 6 --> */
+
+.late {
+	background-color: rgb(246, 246, 246);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 50px;
+}
+
+.lata p {
+	color: #777;
+	max-width: 550px;
+	font-size: 14px;
+	margin: auto;
+}
+
+.smail img {
+	/* height: 280px; */
+	width: 380px;
+}
+
+.life p {
+	color: #848484;
+	font-size: 15px;
+}
+
+.life {
+	background-color: white;
+	height: 300px;
+	width: 380px;
+	padding: 20px 20px;
+}
+
+.life button {
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #28abe3;
+	border: none;
+	color: white;
+	border-radius: 40px;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+/* <!-- footer// --> */
+
+.foot {
+	background-color: rgb(34, 34, 34);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.foote h5 {
+	color: white;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.foote p {
+	color: #777;
+	margin-top: 20px;
+}
+
+.foote h6 {
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.foote h6 a {
+	text-decoration: none;
+	color: #777;
+}
+
+.foote h6 a:hover {
+	color: #28abe3;
+}
+
+.color {
+	background-color: rgb(27, 27, 27);
+	width: 100vw;
+	height: 10vh;
+}
+
+.last h6 {
+	color: #777;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.last span {
+	color: #28abe3;
+}
